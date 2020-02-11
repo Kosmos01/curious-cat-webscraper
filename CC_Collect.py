@@ -10,10 +10,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import csv
-from nltk.tokenize import sent_tokenize, word_tokenize
+from nltk.tokenize import word_tokenize
 import pandas as pd
 from nltk.corpus import words
-from nltk.stem.snowball import SnowballStemmer
 
 set_of_words = set(words.words())
 
