@@ -11,7 +11,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import csv
 import pandas as pd
-import re
 
 def is_valid_user(driver):
     try:
